@@ -1,16 +1,13 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Summary of my academics and projects
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Electrical engineer by specialization, also interested in data analytics. My projects are a reflection of my interests which include embedded systems coding and lately data mining. Education details are as follows:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- San Diego State University (MS EE) Expected May 2016   
+- G B Pant Government Engineering College, New Delhi, India (B Tech ECE) Aug 2014    
 
-What else do you need?
+### my interests
 
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
