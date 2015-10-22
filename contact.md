@@ -7,4 +7,8 @@ title: Get in Touch
   LinkedIn
 </a></button>
 
+<button type="button" class="btn btn-default" id="contact-btn"><a href="https://www.github.com/souvikghosh">
+  GitHub
+</a></button>
+
 <p id="googlefont-test">You can even use any <a href="http://www.google.com/fonts/">Google fonts</a> you'd like to be extra fancy, like this Lobster font</p>
