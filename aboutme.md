@@ -1,14 +1,46 @@
 ---
 layout: page
-title: About me
-subtitle: Summary of my academics and projects
+title: Projects
+subtitle: Something practical!
 ---
 
-Electrical engineer by specialization, also interested in data analytics. My projects are a reflection of my interests which include embedded systems coding and lately data mining. Education details are as follows:
+<div class="posts-list">
+  {% for post in paginator.posts %}
+  <article class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+	  <h2 class="post-title">{{ post.title }}</h2>
+	
+	  {% if post.subtitle %}
+	  <h3 class="post-subtitle">
+	    {{ post.subtitle }}
+	  </h3>
+	  {% endif %}  
+    </a>
 
-- San Diego State University (MS EE) Expected May 2016   
-- G B Pant Government Engineering College, New Delhi, India (BTech ECE) Aug 2014    
+    <p class="post-meta">
+      Posted on {{ post.date | date: "%B %-d, %Y" }}
+    </p>
+  
+    <div class="post-entry">
+      {{ post.content | truncatewords: 50 | strip_html}}
+	  <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+    </div>
+  
+   </article>
+  {% endfor %}
+</div>
 
-###Interests
-
-Hardware and software interaction always fascinates me, which actually made me opt for Masters in Electrical Engineering. This interest was the reason for my bachelors degree final year project "GSM based voting system". This is a simplistic approach to a very expensive process in India, Voting. 
+{% if paginator.total_pages > 1 %}
+<ul class="pager main-pager">
+  {% if paginator.previous_page %}
+  <li class="previous">
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li class="next">
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
