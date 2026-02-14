@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Souvik Ghosh - AI enthusiast building projects to simplify life and explore new ideas.">
+    <meta name="description" content="Souvik Ghosh - AI Engineer building RAG systems, multi-agent frameworks, and MCP servers.">
     <meta name="author" content="Souvik Ghosh">
-    <meta property="og:title" content="Souvik Ghosh - Developer Portfolio">
-    <meta property="og:description" content="AI enthusiast building projects to simplify life and explore new ideas.">
+    <meta property="og:title" content="Souvik Ghosh - AI Engineer Portfolio">
+    <meta property="og:description" content="AI Engineer building RAG systems, multi-agent frameworks, and MCP servers.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://souvikghosh.github.io">
-    <title>Souvik Ghosh | Developer Portfolio</title>
+    <title>Souvik Ghosh | AI Engineer</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -270,7 +270,7 @@
                 Hi, I'm <span class="gradient-text">Souvik Ghosh</span>
             </h1>
             <p class="text-xl md:text-2xl text-dark-400 mb-8 leading-relaxed">
-                AI enthusiast building projects to simplify life and explore new ideas.
+                AI Engineer building RAG pipelines, multi-agent systems, and MCP servers.
             </p>
             <div class="flex items-center justify-center gap-4">
                 <a href="https://github.com/souvikghosh" target="_blank"
@@ -292,81 +292,142 @@
             <h2 class="text-3xl font-bold mb-8">About Me</h2>
             <div class="glass-card rounded-2xl p-8 border border-dark-800/50">
                 <p class="text-dark-300 text-lg leading-relaxed mb-6">
-                    I'm a developer passionate about leveraging AI to build practical solutions.
-                    I work with modern technologies and enjoy exploring the intersection of
-                    artificial intelligence and software development.
+                    I build production AI systems &mdash; from RAG pipelines with vector databases
+                    and cited retrieval, to multi-agent orchestrators with tool use and delegation,
+                    to MCP servers that connect AI models to real-world data.
                 </p>
                 <p class="text-dark-300 text-lg leading-relaxed">
-                    When I'm not coding, I'm experimenting with new AI tools, contributing to
-                    open source, and constantly learning new technologies to stay at the cutting edge.
+                    My focus is on practical AI engineering: prompt engineering, embeddings,
+                    streaming APIs, evaluation frameworks, and the infrastructure that makes
+                    LLMs useful in production. Python-first, with FastAPI and Anthropic SDK.
                 </p>
             </div>
         </div>
     </section>
 
-    <!-- Star Project Section -->
+    <!-- AI Portfolio Section -->
     <section class="py-24 px-6 relative">
-        <div class="max-w-4xl mx-auto section-fade">
-            <div class="text-center mb-8">
+        <div class="max-w-5xl mx-auto section-fade">
+            <div class="text-center mb-12">
                 <span class="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-500/20 to-blue-500/20 rounded-full text-sm border border-purple-500/30 mb-4">
-                    <span class="text-yellow-400">&#11088;</span>
-                    <span class="gradient-text font-medium">Star Project</span>
+                    <span class="gradient-text font-medium">AI Engineering Portfolio</span>
                 </span>
-                <h2 class="text-3xl font-bold">telegram-claude-bot</h2>
+                <h2 class="text-3xl font-bold mb-3">Production AI Systems</h2>
+                <p class="text-dark-400">End-to-end projects covering RAG, agents, and MCP &mdash; with tests, APIs, and real architectures.</p>
             </div>
 
-            <div class="star-project-card rounded-2xl p-8">
-                <div class="flex items-start gap-4 mb-6">
-                    <!-- Telegram Icon -->
-                    <div class="p-3 bg-gradient-to-br from-blue-500 to-cyan-400 rounded-xl shrink-0">
-                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
-                        </svg>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- docquery -->
+                <a href="https://github.com/souvikghosh/docquery" target="_blank" class="star-project-card rounded-2xl p-6 block transition-transform hover:-translate-y-1">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="p-2.5 bg-gradient-to-br from-blue-500 to-cyan-400 rounded-xl shrink-0">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-white">docquery</h3>
+                            <p class="text-dark-400 text-xs">RAG Document Q&A Engine</p>
+                        </div>
                     </div>
-                    <div class="flex-1">
-                        <h3 class="text-2xl font-bold text-white mb-2">Telegram Claude Bot</h3>
-                        <p class="text-dark-300 text-lg leading-relaxed">
-                            A Telegram bot that bridges to Claude Code CLI &mdash; chat with Claude from your phone, anywhere.
-                        </p>
+                    <p class="text-dark-300 text-sm leading-relaxed mb-4">
+                        Production RAG pipeline: ingest documents, chunk and embed with Voyage, store in ChromaDB, and answer questions with cited sources via streaming FastAPI.
+                    </p>
+                    <div class="flex flex-wrap gap-1.5 mb-4">
+                        <span class="feature-pill px-2.5 py-1 rounded-full text-xs text-blue-300">RAG</span>
+                        <span class="feature-pill px-2.5 py-1 rounded-full text-xs text-blue-300">ChromaDB</span>
+                        <span class="feature-pill px-2.5 py-1 rounded-full text-xs text-blue-300">Embeddings</span>
+                        <span class="feature-pill px-2.5 py-1 rounded-full text-xs text-blue-300">SSE Streaming</span>
+                        <span class="feature-pill px-2.5 py-1 rounded-full text-xs text-blue-300">Evaluation</span>
                     </div>
-                </div>
-
-                <!-- Feature pills -->
-                <div class="flex flex-wrap gap-2 mb-6">
-                    <span class="feature-pill px-3 py-1.5 rounded-full text-sm text-blue-300">Session Persistence</span>
-                    <span class="feature-pill px-3 py-1.5 rounded-full text-sm text-blue-300">Rate Limiting</span>
-                    <span class="feature-pill px-3 py-1.5 rounded-full text-sm text-blue-300">Auto-Chunking</span>
-                    <span class="feature-pill px-3 py-1.5 rounded-full text-sm text-blue-300">User Whitelist</span>
-                </div>
-
-                <!-- Architecture visual -->
-                <div class="bg-dark-900/50 rounded-xl p-4 mb-6 border border-dark-700/50">
-                    <div class="flex items-center justify-center gap-4 text-lg">
-                        <span class="flex items-center gap-2">
-                            <span class="text-2xl">&#128241;</span>
-                            <span class="text-dark-300">Telegram</span>
-                        </span>
-                        <span class="text-dark-500">&rarr;</span>
-                        <span class="flex items-center gap-2">
-                            <span class="text-2xl">&#129302;</span>
-                            <span class="text-dark-300">Bot</span>
-                        </span>
-                        <span class="text-dark-500">&rarr;</span>
-                        <span class="flex items-center gap-2">
-                            <span class="text-2xl">&#129504;</span>
-                            <span class="text-dark-300">Claude CLI</span>
-                        </span>
+                    <div class="bg-dark-900/50 rounded-lg p-3 border border-dark-700/50">
+                        <div class="flex items-center justify-center gap-2 text-xs text-dark-400">
+                            <span>PDF/Text</span>
+                            <span class="text-dark-600">&rarr;</span>
+                            <span>Chunk</span>
+                            <span class="text-dark-600">&rarr;</span>
+                            <span>Embed</span>
+                            <span class="text-dark-600">&rarr;</span>
+                            <span>Retrieve</span>
+                            <span class="text-dark-600">&rarr;</span>
+                            <span>Generate</span>
+                        </div>
                     </div>
-                </div>
+                </a>
 
-                <!-- GitHub link -->
-                <div class="flex justify-center">
-                    <a href="https://github.com/souvikghosh/telegram-claude-bot" target="_blank"
-                       class="glow-btn inline-flex items-center gap-2 px-6 py-3 bg-dark-800 text-white rounded-lg font-medium hover:bg-dark-700 transition-colors border border-dark-600">
-                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-                        View on GitHub
-                    </a>
-                </div>
+                <!-- agentstack -->
+                <a href="https://github.com/souvikghosh/agentstack" target="_blank" class="star-project-card rounded-2xl p-6 block transition-transform hover:-translate-y-1">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="p-2.5 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl shrink-0">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-white">agentstack</h3>
+                            <p class="text-dark-400 text-xs">Multi-Agent Orchestrator</p>
+                        </div>
+                    </div>
+                    <p class="text-dark-300 text-sm leading-relaxed mb-4">
+                        Lightweight agent framework: think-act-observe loop, tool calling, task decomposition with dependency resolution, and agent-to-agent delegation via FastAPI.
+                    </p>
+                    <div class="flex flex-wrap gap-1.5 mb-4">
+                        <span class="feature-pill px-2.5 py-1 rounded-full text-xs text-purple-300">AI Agents</span>
+                        <span class="feature-pill px-2.5 py-1 rounded-full text-xs text-purple-300">Tool Use</span>
+                        <span class="feature-pill px-2.5 py-1 rounded-full text-xs text-purple-300">Task Planning</span>
+                        <span class="feature-pill px-2.5 py-1 rounded-full text-xs text-purple-300">SQLite Memory</span>
+                        <span class="feature-pill px-2.5 py-1 rounded-full text-xs text-purple-300">A2A</span>
+                    </div>
+                    <div class="bg-dark-900/50 rounded-lg p-3 border border-dark-700/50">
+                        <div class="flex items-center justify-center gap-2 text-xs text-dark-400">
+                            <span>Plan</span>
+                            <span class="text-dark-600">&rarr;</span>
+                            <span>Think</span>
+                            <span class="text-dark-600">&rarr;</span>
+                            <span>Act</span>
+                            <span class="text-dark-600">&rarr;</span>
+                            <span>Observe</span>
+                            <span class="text-dark-600">&rarr;</span>
+                            <span>Delegate</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- mcptools -->
+                <a href="https://github.com/souvikghosh/mcptools" target="_blank" class="star-project-card rounded-2xl p-6 block transition-transform hover:-translate-y-1">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="p-2.5 bg-gradient-to-br from-emerald-500 to-teal-400 rounded-xl shrink-0">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-white">mcptools</h3>
+                            <p class="text-dark-400 text-xs">MCP Financial Data Server</p>
+                        </div>
+                    </div>
+                    <p class="text-dark-300 text-sm leading-relaxed mb-4">
+                        MCP-compliant server exposing 7 financial tools (stock quotes, technicals, news, company data) with resources and prompt templates for any MCP client.
+                    </p>
+                    <div class="flex flex-wrap gap-1.5 mb-4">
+                        <span class="feature-pill px-2.5 py-1 rounded-full text-xs text-emerald-300">MCP Protocol</span>
+                        <span class="feature-pill px-2.5 py-1 rounded-full text-xs text-emerald-300">yfinance</span>
+                        <span class="feature-pill px-2.5 py-1 rounded-full text-xs text-emerald-300">7 Tools</span>
+                        <span class="feature-pill px-2.5 py-1 rounded-full text-xs text-emerald-300">Resources</span>
+                        <span class="feature-pill px-2.5 py-1 rounded-full text-xs text-emerald-300">Prompts</span>
+                    </div>
+                    <div class="bg-dark-900/50 rounded-lg p-3 border border-dark-700/50">
+                        <div class="flex items-center justify-center gap-2 text-xs text-dark-400">
+                            <span>AI Client</span>
+                            <span class="text-dark-600">&rarr;</span>
+                            <span>MCP</span>
+                            <span class="text-dark-600">&rarr;</span>
+                            <span>Tools</span>
+                            <span class="text-dark-600">&rarr;</span>
+                            <span>Market Data</span>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
@@ -407,32 +468,32 @@
                     <div class="font-medium">Python</div>
                 </div>
                 <div class="glass-card rounded-xl p-4 text-center border border-dark-800/50 glow-hover">
-                    <div class="text-2xl mb-2">&#9883;&#65039;</div>
-                    <div class="font-medium">React</div>
+                    <div class="text-2xl mb-2">&#129504;</div>
+                    <div class="font-medium">LLMs / GenAI</div>
+                </div>
+                <div class="glass-card rounded-xl p-4 text-center border border-dark-800/50 glow-hover">
+                    <div class="text-2xl mb-2">&#128269;</div>
+                    <div class="font-medium">RAG Systems</div>
                 </div>
                 <div class="glass-card rounded-xl p-4 text-center border border-dark-800/50 glow-hover">
                     <div class="text-2xl mb-2">&#129302;</div>
-                    <div class="font-medium">AI/ML</div>
+                    <div class="font-medium">AI Agents</div>
                 </div>
                 <div class="glass-card rounded-xl p-4 text-center border border-dark-800/50 glow-hover">
-                    <div class="text-2xl mb-2">&#128311;</div>
-                    <div class="font-medium">TypeScript</div>
-                </div>
-                <div class="glass-card rounded-xl p-4 text-center border border-dark-800/50 glow-hover">
-                    <div class="text-2xl mb-2">&#128640;</div>
-                    <div class="font-medium">Next.js</div>
-                </div>
-                <div class="glass-card rounded-xl p-4 text-center border border-dark-800/50 glow-hover">
-                    <div class="text-2xl mb-2">&#127912;</div>
-                    <div class="font-medium">Tailwind CSS</div>
+                    <div class="text-2xl mb-2">&#128268;</div>
+                    <div class="font-medium">MCP / A2A</div>
                 </div>
                 <div class="glass-card rounded-xl p-4 text-center border border-dark-800/50 glow-hover">
                     <div class="text-2xl mb-2">&#128451;&#65039;</div>
                     <div class="font-medium">FastAPI</div>
                 </div>
                 <div class="glass-card rounded-xl p-4 text-center border border-dark-800/50 glow-hover">
-                    <div class="text-2xl mb-2">&#9729;&#65039;</div>
-                    <div class="font-medium">Cloud</div>
+                    <div class="text-2xl mb-2">&#128202;</div>
+                    <div class="font-medium">Vector DBs</div>
+                </div>
+                <div class="glass-card rounded-xl p-4 text-center border border-dark-800/50 glow-hover">
+                    <div class="text-2xl mb-2">&#128172;</div>
+                    <div class="font-medium">Prompt Eng.</div>
                 </div>
             </div>
         </div>
